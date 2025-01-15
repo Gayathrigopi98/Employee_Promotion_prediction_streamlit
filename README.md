@@ -21,21 +21,25 @@ This project predicts employee promotions based on various features such as depa
 To get started with the project, clone the repository and install the required dependencies.
 
 ### Steps:
+For whole project
 1. Clone the repository:
-   a)For whole project
    ```bash
    git clone https://github.com/Gayathrigopi98/Employee_Promotion_Prediction.git
-   b)Streamlit alone
-   ```bash
-   git clone https://github.com/Gayathrigopi98/Employee_Promotion_prediction_streamlit.git
-   
-3. Navigate into the project directory:
+2. Navigate into the project directory:
    ```bash
    cd Employee_Promotion_Prediction
-4. Install the required dependencies:
+3. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
 
+For Streamlit
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/Gayathrigopi98/Employee_Promotion_prediction_streamlit.git
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   
 ## Usage
 To use the application, follow these steps:
 - Make sure you have the trained model file Promotion_prediction_model.pkl and the training data train.csv in the same directory as the script.
